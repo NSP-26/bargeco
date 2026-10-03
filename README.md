@@ -14,13 +14,13 @@ One static page. Upload this folder as-is to any static host (Vercel, Netlify, C
 
 ## Form
 
-Posts to FormSubmit (formsubmit.co), which emails each enquiry to hire@workingbargeco.com.
+Posts to FormSubmit (formsubmit.co), which emails each enquiry to hire@thebarge.co.
 The first enquiry sends an activation email to that inbox. Click the link and it's live.
 After that FormSubmit gives you a random alias. Swap it in for the address in the form
 `action` and in `ENDPOINT` in the script so the address isn't in the page source.
 
 Without JavaScript the form still posts and FormSubmit redirects back to
-https://workingbargeco.com/?sent=1#contact. Change `_next` if the domain is different.
+https://thebarge.co/?sent=1#contact. Change `_next` if the domain is different.
 
 ## Hero photo
 
